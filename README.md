@@ -1,4 +1,4 @@
-# 图片隐写术工具
+# HideByPixel-CLI
 基于 [HideByPixel](https://github.com/HFO4/HideByPixel) 开发的命令行工具
 通过修改像素LSB（最低有效位）实现文本信息的嵌入与提取
 
