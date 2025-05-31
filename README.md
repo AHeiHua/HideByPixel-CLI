@@ -15,16 +15,16 @@
 
 ```bash
 # 安装依赖
-pip install -r requirements.
+pip install -r requirements.txt
 ```
 ## 使用方法
 ### 文本嵌入
 ```bash
-python main.py -e -i input.png -o output.png -m "Hello, World!"
+python main.py embed input.png "Hello, World!"
 ```
 ### 信息提取
 ```bash
-python main.py -d -i input.png -o output.txt
+python main.py read input.png
 ```
 ## 注意事项
 - 确保输入图片是PNG格式，支持Alpha通道
